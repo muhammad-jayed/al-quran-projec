@@ -1,5 +1,9 @@
 
 
+
+
+
+
 /*navigation menu------*/
 
 *{
@@ -1571,6 +1575,8 @@ body{
 }
 
 
+
+
 .book-ashol{
     position: fixed;
    display: flex;
@@ -1579,7 +1585,8 @@ body{
    background: #191f2d ;
    padding-top: 25px;
   /* padding-top: 25px;*/
-  margin-bottom: 100px;
+   margin-bottom: 100px;
+   z-index: 3;
 }
 
 
@@ -1615,16 +1622,19 @@ body{
 }
 
 .hed-item-sura{
+    position: relative;
+    top: 81px;
     display: flex;
     height: auto;
     width: 91%;
     background: #126b6f;
     border-radius: 21px;
-  /*  margin-top:27px ;*/
+   /*  margin-top:27px ;*/
     margin-left: 15px;
     margin-right: 15px;
-    margin-bottom: 31px;
+    margin-bottom: 101px;
     padding-bottom: 25px;
+    z-index: 0;
    
 }
 
@@ -1703,14 +1713,13 @@ body{
 
 .ayah-0101{
     height: auto;
-    width: 91%;
+    width: 90%;
     background: #2c3240;
     margin-left: 15px;
     border-radius: 65px;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-left: 25px;
     padding-right: 25px;
-    padding-bottom: 15px;
     margin-bottom: 15px;
   }
 
@@ -1718,6 +1727,7 @@ body{
     text-align: center;
     color:#b6cccf;
     font-weight: 700;
+    font-size: 27px;
     padding-bottom: 15px;
 }
 
